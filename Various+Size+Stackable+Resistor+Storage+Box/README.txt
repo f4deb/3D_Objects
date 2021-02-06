@@ -1,0 +1,1 @@
+{Various Size Stackable Resistor Storage Box %!s(bool=true)} by {termlimit %!s(bool=true)} on Thingiverse: https://www.thingiverse.com/thing:3873672
