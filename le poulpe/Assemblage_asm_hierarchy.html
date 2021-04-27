@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>A2P assembly hierarchy visualization</title>
+</head>
+<body>
+<div class="mermaid">
+graph TD
+support_roulement_001(support_roulement_001<br>*FIXED*) -- planesParallel --> Arbre_transmission_001
+support_roulement_001(support_roulement_001<br>*FIXED*) -- plane --> Arbre_transmission_001
+support_roulement_001(support_roulement_001<br>*FIXED*) -- planesParallel --> Engrenage_Transmission_001
+Arbre_transmission_001 -- plane --> Engrenage_Transmission_001
+Engrenage_Transmission_001 -- planesParallel --> Engrenage_Transmission-20_001
+Engrenage_Transmission_001 -- plane --> Engrenage_Transmission-20_001
+Engrenage_Transmission_001 -- axisParallel --> Engrenage_Transmission-20_001
+Engrenage_Transmission-20_001
+</div>
+    <script src="https://unpkg.com/mermaid@7.1.2/dist/mermaid.js"></script>
+    <script>
+        mermaid.initialize({startOnLoad: true});
+    </script>
+</body></html>
